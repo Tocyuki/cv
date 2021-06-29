@@ -6,3 +6,4 @@
 | 2014-10 | LPIC1 |
 | 2016-05 | Zabbix Certified Specialist |
 | 2019-01 | AWS Solution Architect Associate |
+| 2020-08 | AWS SysOps Administrator Associate |
