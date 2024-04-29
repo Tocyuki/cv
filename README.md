@@ -1,10 +1,11 @@
 # SNS
-- [X(旧Twitter)]()
+- [X(旧Twitter)](https://twitter.com/Tocyuki)
+- [GitHub](https://github.com/Tocyuki)
 
 # ブログ
-- [はてなブログ]()
-- [Qiita]()
-- [Zenn]()
+- [はてなブログ](https://blog.tocyuki.com/)
+- [Qiita](https://qiita.com/Tocyuki)
+- [Zenn](https://zenn.dev/tocyuki)
 
 # 記事寄稿
 - []()
@@ -14,6 +15,7 @@
 - []()
 
 # 掲載記事
+- 
 
 # イベント運営・登壇
 | 日付 | イベント名 | 役割 | イベントURL | 資料・動画URL |
