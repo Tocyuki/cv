@@ -1,5 +1,5 @@
 # SNS
-- [X(旧Twitter)](https://twitter.com/Tocyuki)
+- [X (旧Twitter)](https://twitter.com/Tocyuki)
 - [GitHub](https://github.com/Tocyuki)
 
 # ブログ・資料
@@ -38,6 +38,16 @@
 |2022/09/30|[JAWS-UG SRE支部 #4](https://jawsug-sre.connpass.com/event/257772/)|登壇|[動画](https://www.youtube.com/watch?v=9VqQHsoAH9Q&t=5893s), [資料](https://speakerdeck.com/tocyuki/aurora-reader-instance-for-analysis-made-with-terraform)|
 |2022/05/13|[NRUG (New Relic User Group) SRE支部 Vol.1](https://nrug-sre.connpass.com/event/242783/)|主催 & 登壇|[動画](https://newrelic.com/jp/resources/presentations/nrug_sre_vol1), [資料](https://speakerdeck.com/tocyuki/sre-that-wants-to-empower-developers)|
 |2021/11/24|[ふるさとチョイスCTOが語る社会貢献とキャリアアップが両立できる理由](https://techplay.jp/event/838128)|パネラー||
+
+# 職務経歴
+| 在籍期間 | 会社名 | ロール | 役職 |
+| --- | --- | --- | --- |
+|2025/09 - 現在|[スタディポケット株式会社](https://studypocket.ai/)|ソフトウェアエンジニア<br>SRE<br>情シス| - |
+|2023/08 - 2025/08|[イオンスマートテクノロジー株式会社](https://www.aeon-st.co.jp/)|SRE|SREチームマネージャー|
+|2020/12 - 2023/07|[株式会社トラストバンク](https://www.trustbank.co.jp/)|SRE|SREチームマネージャー|
+|2019/11 - 2020/11|[株式会社クイック](https://919.jp/)|SRE|SREチームマネージャー|
+|2014/01 - 2019/10|[サイバーソリューションズ株式会社](https://www.cybersolutions.co.jp/)|インフラエンジニア<br>ソフトウェアエンジニア<br>情シス|インフラチームマネージャー|
+|2012/06 - 2013/12|[インフィリック株式会社](https://www.simpline.co.jp/)<br>（現シンプライン株式会社）|NWエンジニア<br>サーバーエンジニア| - |
 
 # 取得資格一覧
 | 取得年月 | ステータス | 資格名 |
