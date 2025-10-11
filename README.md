@@ -10,6 +10,7 @@
 - [Speakerdeck](https://speakerdeck.com/tocyuki)
 
 # 掲載記事
+- [イオンの長い歴史と複雑なシステムに挑むSREチームがつくった「信頼」を勝ち取るための4つの行動指針｜イオン・エンジニアインタビュー](https://engineer-recruiting.aeon.info/aeon-tech-hub/interview_kasaitoshiyuki)
 - [ゼロからマイクロサービスに取り組むイオン、DB運用や組織課題の解決に「TiDB」が寄与できることとは @CodeZine](https://codezine.jp/article/detail/19147)
 - [元ギタリストがエンジニアになれた理由 - トラストバンク 香西俊幸さん @mynavi tech plus](https://news.mynavi.jp/techplus/article/10man-engineer_interview-3/)
 
