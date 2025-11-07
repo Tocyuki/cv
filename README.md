@@ -2,7 +2,6 @@
 - [X (旧Twitter)](https://twitter.com/Tocyuki)
 - [GitHub](https://github.com/Tocyuki)
 - [Lapras](https://lapras.com/public/Tocyuki)
-- 
 
 # ブログ・資料
 - [はてなブログ](https://blog.tocyuki.com/)
