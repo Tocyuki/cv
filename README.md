@@ -1,6 +1,8 @@
 # SNS
 - [X (旧Twitter)](https://twitter.com/Tocyuki)
 - [GitHub](https://github.com/Tocyuki)
+- [Lapras](https://lapras.com/public/Tocyuki)
+- 
 
 # ブログ・資料
 - [はてなブログ](https://blog.tocyuki.com/)
@@ -44,12 +46,12 @@
 # 職務経歴
 | 在籍期間 | 会社名 | ロール | 役職 |
 | --- | --- | --- | --- |
-|2025/09 - 現在|[スタディポケット株式会社](https://studypocket.ai/)|ソフトウェアエンジニア<br>SRE<br>情シス| - |
-|2023/08 - 2025/08|[イオンスマートテクノロジー株式会社](https://www.aeon-st.co.jp/)|SRE|SREチームマネージャー|
-|2020/12 - 2023/07|[株式会社トラストバンク](https://www.trustbank.co.jp/)|SRE|SREチームマネージャー|
-|2019/11 - 2020/11|[株式会社クイック](https://919.jp/)|SRE|SREチームマネージャー|
-|2014/01 - 2019/10|[サイバーソリューションズ株式会社](https://www.cybersolutions.co.jp/)|インフラエンジニア<br>ソフトウェアエンジニア<br>情シス|インフラチームマネージャー|
-|2012/06 - 2013/12|[インフィリック株式会社](https://www.simpline.co.jp/)<br>（現シンプライン株式会社）|NWエンジニア<br>サーバーエンジニア| - |
+|2025/09 - 現在|[スタディポケット株式会社](https://studypocket.ai/)|ソフトウェアエンジニア<br>SRE<br>情シス|IC|
+|2023/08 - 2025/08|[イオンスマートテクノロジー株式会社](https://www.aeon-st.co.jp/)|SRE|マネージャー|
+|2020/12 - 2023/07|[株式会社トラストバンク](https://www.trustbank.co.jp/)|SRE|マネージャー|
+|2019/11 - 2020/11|[株式会社クイック](https://919.jp/)|SRE|マネージャー|
+|2014/01 - 2019/10|[サイバーソリューションズ株式会社](https://www.cybersolutions.co.jp/)|インフラエンジニア<br>ソフトウェアエンジニア<br>情シス|マネージャー|
+|2012/06 - 2013/12|[インフィリック株式会社](https://www.simpline.co.jp/)<br>（現シンプライン株式会社）|NWエンジニア<br>サーバーエンジニア|IC|
 
 # 取得資格一覧
 | 取得年月 | ステータス | 資格名 |
