@@ -34,6 +34,7 @@
 |2023/10/14|[Cloudflare Meetup Nagano Vol.2](https://cfm-cts.connpass.com/event/295067/)|主催||
 |2023/09/13|[FutureStack Tokyo NRUG 2周年特別版](https://nrug.connpass.com/event/290339/)|登壇|[資料](https://speakerdeck.com/tocyuki/futurestack-tokyo-nrug-2zhou-nian-te-bie-ban)|
 |2023/08/08|[JAWS-UG コンテナ支部 #24 ecspresso MeetUp](https://jawsug-container.connpass.com/event/285124/)|登壇|[動画](https://www.youtube.com/live/Leic9Z4TTec), [資料](https://speakerdeck.com/tocyuki/i-love-ecspresso)|
+|2023/06/27|[NRUG (New Relic User Group) SRE支部 Vol.3](https://nrug-sre.connpass.com/event/285748/)|主催 & 司会|[動画](https://www.youtube.com/watch?v=9T6PUJmoCDU)|
 |2023/04/15|[Cloudflare Meetup Nagano Kick Off!](https://cfm-cts.connpass.com/event/275197/)|主催||
 |2022/12/14|[NRUG (New Relic User Group) Vol.5 Day1](https://nrug.connpass.com/event/265357/)|パネラー||
 |2022/12/12|[Cloud Native Days Tokyo 2022]()|登壇|[動画](https://cloudnativedays.jp/cndt2022/talks/1589), [資料](https://speakerdeck.com/tocyuki/aws-ecs-cicd-with-terraform-and-ecspresso)|
