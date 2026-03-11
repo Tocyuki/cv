@@ -15,6 +15,14 @@
 - [ゼロからマイクロサービスに取り組むイオン、DB運用や組織課題の解決に「TiDB」が寄与できることとは @CodeZine](https://codezine.jp/article/detail/19147)
 - [元ギタリストがエンジニアになれた理由 - トラストバンク 香西俊幸さん @mynavi tech plus](https://news.mynavi.jp/techplus/article/10man-engineer_interview-3/)
 
+# テックブログ寄稿
+| 日付 | 会社名 | 記事タイトル |
+| --- | --- | --- |
+|2022/10/28|株式会社トラストバンク|[JAWSDAYS2022に「さいつよのEC2オートスケーリング環境CI/CDパイプライン2022オータム」というセッションで登壇しました！](https://tech.trustbank.co.jp/entry/2022/10/28/150000)|
+|2022/02/14|株式会社トラストバンク|[AWS EFSを使ったWordPressシステムをProduction Readyにするまでの道のり](https://tech.trustbank.co.jp/entry/2022/02/14/150000)|
+|2022/01/17|株式会社トラストバンク|[テックブログはじめました。](https://tech.trustbank.co.jp/entry/2022/01/17/161451)|
+|2020/07/13|株式会社クイック|[在宅勤務はfish + tmux + vimでイケてるターミナル環境に引き篭もろう！](https://aimstogeek.hatenablog.com/entry/2020/07/13/080000)|
+
 # 書籍
 | 発売日 | 書籍名 | 役割 |
 | --- | --- | --- |
