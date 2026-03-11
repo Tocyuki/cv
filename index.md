@@ -1,4 +1,7 @@
-[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/Tocyuki/cv/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Tocyuki/cv/actions/workflows/jekyll-gh-pages.yml)
+---
+layout: default
+title: "香西 俊幸 | CV"
+---
 
 # SNS
 - [X (旧Twitter)](https://twitter.com/Tocyuki)

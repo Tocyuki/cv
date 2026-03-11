@@ -5,3 +5,5 @@ url: "https://tocyuki.github.io"
 markdown: kramdown
 kramdown:
   input: GFM
+exclude:
+  - README.md
