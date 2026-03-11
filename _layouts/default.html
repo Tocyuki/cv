@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --color-bg: #faf9f7;
+      --color-surface: #ffffff;
+      --color-text: #1c1917;
+      --color-text-secondary: #57534e;
+      --color-text-muted: #a8a29e;
+      --color-accent: #9a7b4f;
+      --color-accent-light: #c4a87340;
+      --color-border: #e7e5e4;
+      --color-border-light: #f5f5f4;
+      --color-tag-bg: #f5f0eb;
+      --color-tag-text: #78716c;
+      --color-status-active: #16a34a;
+      --color-status-expired: #a8a29e;
+      --font-heading: 'Shippori Mincho', serif;
+      --font-body: 'Noto Sans JP', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--color-text);
+      background-color: var(--color-bg);
+    }
+
+    /* ── Header ── */
+    .site-header {
+      background: linear-gradient(135deg, #1c1917 0%, #292524 100%);
+      color: #faf9f7;
+      padding: 4rem 2rem 3.5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .site-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(ellipse at 30% 50%, rgba(154, 123, 79, 0.15) 0%, transparent 60%),
+                  radial-gradient(ellipse at 70% 50%, rgba(154, 123, 79, 0.08) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .site-header h1 {
+      font-family: var(--font-heading);
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.4rem;
+      position: relative;
+    }
+
+    .site-header .subtitle {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--color-accent);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      position: relative;
+    }
+
+    .header-rule {
+      width: 48px;
+      height: 2px;
+      background: var(--color-accent);
+      margin: 1.2rem auto 0;
+      position: relative;
+    }
+
+    /* ── Main ── */
+    .site-main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem 4rem;
+    }
+
+    /* ── Sections ── */
+    .content > h1 {
+      font-family: var(--font-heading);
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-top: 3rem;
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 2px solid var(--color-text);
+      letter-spacing: 0.06em;
+      position: relative;
+    }
+
+    .content > h1::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 40px;
+      height: 2px;
+      background: var(--color-accent);
+    }
+
+    /* ── Lists (SNS, Blog, Articles) ── */
+    .content > ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .content > ul > li {
+      display: inline-flex;
+    }
+
+    .content > ul > li > a {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      color: var(--color-text);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .content > ul > li > a:hover {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+      box-shadow: 0 2px 8px rgba(154, 123, 79, 0.12);
+      transform: translateY(-1px);
+    }
+
+    /* ── Tables ── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--color-surface);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+      font-size: 0.88rem;
+      margin-bottom: 0.5rem;
+    }
+
+    thead {
+      background: #1c1917;
+      color: #faf9f7;
+    }
+
+    thead th {
+      padding: 0.75rem 1rem;
+      font-weight: 500;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--color-border-light);
+      transition: background 0.15s ease;
+    }
+
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background: #faf8f5;
+    }
+
+    tbody td {
+      padding: 0.7rem 1rem;
+      vertical-align: top;
+      line-height: 1.6;
+    }
+
+    tbody td:first-child {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--color-text-secondary);
+      white-space: nowrap;
+    }
+
+    /* ── Links in content ── */
+    .content a {
+      color: var(--color-accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease;
+    }
+
+    .content a:hover {
+      border-bottom-color: var(--color-accent);
+    }
+
+    thead a,
+    thead a:hover {
+      color: #faf9f7;
+      border-bottom-color: rgba(250, 249, 247, 0.4);
+    }
+
+    /* ── Badges for roles/status ── */
+    tbody td:nth-child(3),
+    tbody td:nth-child(4) {
+      font-size: 0.84rem;
+    }
+
+    /* ── Footer ── */
+    .site-footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--color-text-muted);
+      font-size: 0.78rem;
+      border-top: 1px solid var(--color-border);
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .site-header {
+        padding: 3rem 1.5rem 2.5rem;
+      }
+
+      .site-header h1 {
+        font-size: 1.8rem;
+      }
+
+      .site-main {
+        padding: 0 1rem 3rem;
+      }
+
+      table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .content > ul {
+        gap: 0.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .site-header h1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.08em;
+      }
+
+      .site-header .subtitle {
+        font-size: 0.75rem;
+      }
+
+      thead th,
+      tbody td {
+        padding: 0.5rem 0.7rem;
+        font-size: 0.8rem;
+      }
+
+      .content > h1 {
+        font-size: 1.2rem;
+      }
+    }
+
+    /* ── Fade-in animation ── */
+    .content > h1,
+    .content > ul,
+    .content > table {
+      animation: fadeUp 0.5s ease both;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .content > *:nth-child(1) { animation-delay: 0.05s; }
+    .content > *:nth-child(2) { animation-delay: 0.1s; }
+    .content > *:nth-child(3) { animation-delay: 0.15s; }
+    .content > *:nth-child(4) { animation-delay: 0.2s; }
+    .content > *:nth-child(5) { animation-delay: 0.25s; }
+    .content > *:nth-child(6) { animation-delay: 0.3s; }
+    .content > *:nth-child(7) { animation-delay: 0.35s; }
+    .content > *:nth-child(8) { animation-delay: 0.4s; }
+    .content > *:nth-child(9) { animation-delay: 0.45s; }
+    .content > *:nth-child(10) { animation-delay: 0.5s; }
+    .content > *:nth-child(n+11) { animation-delay: 0.55s; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1>香西 俊幸</h1>
+    <div class="subtitle">Software Engineer / SRE</div>
+    <div class="header-rule"></div>
+  </header>
+
+  <main class="site-main">
+    <div class="content">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; {{ site.time | date: '%Y' }} Toshiyuki Kasai
+  </footer>
+</body>
+</html>

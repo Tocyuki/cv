@@ -1,3 +1,8 @@
+---
+layout: default
+title: "香西 俊幸 | CV"
+---
+
 # SNS
 - [X (旧Twitter)](https://twitter.com/Tocyuki)
 - [GitHub](https://github.com/Tocyuki)
