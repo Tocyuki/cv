@@ -3,6 +3,8 @@ layout: default
 title: "香西 俊幸 | CV"
 ---
 
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/Tocyuki/cv/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Tocyuki/cv/actions/workflows/jekyll-gh-pages.yml)
+
 # SNS
 - [X (旧Twitter)](https://twitter.com/Tocyuki)
 - [GitHub](https://github.com/Tocyuki)
