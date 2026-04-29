@@ -16,6 +16,7 @@ title: "香西 俊幸 | CV"
 - [Speakerdeck](https://speakerdeck.com/tocyuki)
 
 # 掲載記事
+- [教育機関向け生成AI SaaS「スタディポケット」と取り組んだ ML Enablement Workshop ― Working Backwards で生まれた新機能コンセプト @AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/ml-enablement-workshop-studypocket-2026/)
 - [スタディポケット、執行役員CTOに香西俊幸が就任。 @PR TIMES](https://prtimes.jp/main/html/rd/p/000000076.000049664.html)
 - [「生成AIの活用にチャレンジしないのは機会損失」小売・巨大企業の開発組織の向かう未来](https://engineer-recruiting.aeon.info/aeon-tech-hub/event-report_SmarterRetailingForum2024)
 - [イオンの長い歴史と複雑なシステムに挑むSREチームがつくった「信頼」を勝ち取るための4つの行動指針｜イオン・エンジニアインタビュー](https://engineer-recruiting.aeon.info/aeon-tech-hub/interview_kasaitoshiyuki)
