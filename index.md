@@ -16,11 +16,15 @@ title: "香西 俊幸 | CV"
 - [Speakerdeck](https://speakerdeck.com/tocyuki)
 
 # 掲載記事
-- [スタディポケット、執行役員CTOに香西俊幸が就任。 @PR TIMES](https://prtimes.jp/main/html/rd/p/000000076.000049664.html)
-- [「生成AIの活用にチャレンジしないのは機会損失」小売・巨大企業の開発組織の向かう未来](https://engineer-recruiting.aeon.info/aeon-tech-hub/event-report_SmarterRetailingForum2024)
-- [イオンの長い歴史と複雑なシステムに挑むSREチームがつくった「信頼」を勝ち取るための4つの行動指針｜イオン・エンジニアインタビュー](https://engineer-recruiting.aeon.info/aeon-tech-hub/interview_kasaitoshiyuki)
-- [ゼロからマイクロサービスに取り組むイオン、DB運用や組織課題の解決に「TiDB」が寄与できることとは @CodeZine](https://codezine.jp/article/detail/19147)
-- [元ギタリストがエンジニアになれた理由 - トラストバンク 香西俊幸さん @mynavi tech plus](https://news.mynavi.jp/techplus/article/10man-engineer_interview-3/)
+
+| 日付 | 媒体 | 記事タイトル |
+| --- | --- | --- |
+| 2026/03/26 | AWS Startup ブログ | [教育機関向け生成AI SaaS「スタディポケット」と取り組んだ ML Enablement Workshop ― Working Backwards で生まれた新機能コンセプト](https://aws.amazon.com/jp/blogs/startup/ml-enablement-workshop-studypocket-2026/) |
+| 2026/01/13 | PR TIMES | [スタディポケット、執行役員CTOに香西俊幸が就任。](https://prtimes.jp/main/html/rd/p/000000076.000049664.html) |
+| 2024/05/28 | AEON TECH HUB | [「生成AIの活用にチャレンジしないのは機会損失」小売・巨大企業の開発組織の向かう未来](https://engineer-recruiting.aeon.info/aeon-tech-hub/event-report_SmarterRetailingForum2024) |
+| 2024/03/26 | CodeZine | [ゼロからマイクロサービスに取り組むイオン、DB運用や組織課題の解決に「TiDB」が寄与できることとは](https://codezine.jp/article/detail/19147) |
+| 2024/02/19 | AEON TECH HUB | [イオンの長い歴史と複雑なシステムに挑むSREチームがつくった「信頼」を勝ち取るための4つの行動指針｜イオン・エンジニアインタビュー](https://engineer-recruiting.aeon.info/aeon-tech-hub/interview_kasaitoshiyuki) |
+| 2023/06/21 | mynavi tech plus | [元ギタリストがエンジニアになれた理由 - トラストバンク 香西俊幸さん](https://news.mynavi.jp/techplus/article/10man-engineer_interview-3/) |
 
 # テックブログ寄稿
 
